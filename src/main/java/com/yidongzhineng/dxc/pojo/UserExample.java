@@ -1,4 +1,4 @@
-package com.yidongzhineng.dxc.POJO;
+package com.yidongzhineng.dxc.pojo;
 
 import java.util.ArrayList;
 import java.util.List;

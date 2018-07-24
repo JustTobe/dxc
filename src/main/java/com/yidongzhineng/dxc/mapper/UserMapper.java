@@ -1,7 +1,7 @@
-package com.yidongzhineng.dxc.Mapper;
+package com.yidongzhineng.dxc.mapper;
 
-import com.yidongzhineng.dxc.POJO.User;
-import com.yidongzhineng.dxc.POJO.UserExample;
+import com.yidongzhineng.dxc.pojo.User;
+import com.yidongzhineng.dxc.pojo.UserExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

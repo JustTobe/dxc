@@ -1,4 +1,4 @@
-package com.yidongzhineng.dxc.POJO;
+package com.yidongzhineng.dxc.pojo;
 
 public class Picture extends PictureKey {
     private String picPath;

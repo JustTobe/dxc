@@ -1,8 +1,8 @@
-package com.yidongzhineng.dxc.Mapper;
+package com.yidongzhineng.dxc.mapper;
 
-import com.yidongzhineng.dxc.POJO.Service;
-import com.yidongzhineng.dxc.POJO.ServiceExample;
-import com.yidongzhineng.dxc.POJO.ServiceKey;
+import com.yidongzhineng.dxc.pojo.Service;
+import com.yidongzhineng.dxc.pojo.ServiceExample;
+import com.yidongzhineng.dxc.pojo.ServiceKey;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

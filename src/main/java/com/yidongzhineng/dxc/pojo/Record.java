@@ -1,4 +1,4 @@
-package com.yidongzhineng.dxc.POJO;
+package com.yidongzhineng.dxc.pojo;
 
 public class Record {
     private Integer recordId;

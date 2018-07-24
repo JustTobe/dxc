@@ -1,8 +1,8 @@
-package com.yidongzhineng.dxc.Mapper;
+package com.yidongzhineng.dxc.mapper;
 
-import com.yidongzhineng.dxc.POJO.Picture;
-import com.yidongzhineng.dxc.POJO.PictureExample;
-import com.yidongzhineng.dxc.POJO.PictureKey;
+import com.yidongzhineng.dxc.pojo.Picture;
+import com.yidongzhineng.dxc.pojo.PictureExample;
+import com.yidongzhineng.dxc.pojo.PictureKey;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

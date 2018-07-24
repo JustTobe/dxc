@@ -1,5 +1,5 @@
 
-package com.yidongzhineng.dxc.Config;
+package com.yidongzhineng.dxc.config;
 
 import com.github.wxpay.sdk.WXPay;
 import org.springframework.beans.factory.annotation.Autowired;

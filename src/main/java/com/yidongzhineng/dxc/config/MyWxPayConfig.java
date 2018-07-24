@@ -1,5 +1,5 @@
 
-package com.yidongzhineng.dxc.Config;
+package com.yidongzhineng.dxc.config;
 
 import com.github.wxpay.sdk.WXPayConfig;
 import lombok.Data;

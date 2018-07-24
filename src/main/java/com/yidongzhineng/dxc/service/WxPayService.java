@@ -1,8 +1,8 @@
 
-package com.yidongzhineng.dxc.Service;
+package com.yidongzhineng.dxc.service;
 
 import com.github.wxpay.sdk.WXPay;
-import com.yidongzhineng.dxc.Config.MyWxPayConfig;
+import com.yidongzhineng.dxc.config.MyWxPayConfig;
 
 import java.util.HashMap;
 import java.util.Map;

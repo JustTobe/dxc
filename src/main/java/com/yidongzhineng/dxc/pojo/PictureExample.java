@@ -1,16 +1,16 @@
-package com.yidongzhineng.dxc.POJO;
+package com.yidongzhineng.dxc.pojo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class RecordExample {
+public class PictureExample {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public RecordExample() {
+    public PictureExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 
@@ -104,183 +104,193 @@ public class RecordExample {
             criteria.add(new Criterion(condition, value1, value2));
         }
 
-        public Criteria andRecordIdIsNull() {
-            addCriterion("record_id is null");
+        public Criteria andPicIdIsNull() {
+            addCriterion("pic_id is null");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdIsNotNull() {
-            addCriterion("record_id is not null");
+        public Criteria andPicIdIsNotNull() {
+            addCriterion("pic_id is not null");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdEqualTo(Integer value) {
-            addCriterion("record_id =", value, "recordId");
+        public Criteria andPicIdEqualTo(Integer value) {
+            addCriterion("pic_id =", value, "picId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdNotEqualTo(Integer value) {
-            addCriterion("record_id <>", value, "recordId");
+        public Criteria andPicIdNotEqualTo(Integer value) {
+            addCriterion("pic_id <>", value, "picId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdGreaterThan(Integer value) {
-            addCriterion("record_id >", value, "recordId");
+        public Criteria andPicIdGreaterThan(Integer value) {
+            addCriterion("pic_id >", value, "picId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdGreaterThanOrEqualTo(Integer value) {
-            addCriterion("record_id >=", value, "recordId");
+        public Criteria andPicIdGreaterThanOrEqualTo(Integer value) {
+            addCriterion("pic_id >=", value, "picId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdLessThan(Integer value) {
-            addCriterion("record_id <", value, "recordId");
+        public Criteria andPicIdLessThan(Integer value) {
+            addCriterion("pic_id <", value, "picId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdLessThanOrEqualTo(Integer value) {
-            addCriterion("record_id <=", value, "recordId");
+        public Criteria andPicIdLessThanOrEqualTo(Integer value) {
+            addCriterion("pic_id <=", value, "picId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdIn(List<Integer> values) {
-            addCriterion("record_id in", values, "recordId");
+        public Criteria andPicIdIn(List<Integer> values) {
+            addCriterion("pic_id in", values, "picId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdNotIn(List<Integer> values) {
-            addCriterion("record_id not in", values, "recordId");
+        public Criteria andPicIdNotIn(List<Integer> values) {
+            addCriterion("pic_id not in", values, "picId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdBetween(Integer value1, Integer value2) {
-            addCriterion("record_id between", value1, value2, "recordId");
+        public Criteria andPicIdBetween(Integer value1, Integer value2) {
+            addCriterion("pic_id between", value1, value2, "picId");
             return (Criteria) this;
         }
 
-        public Criteria andRecordIdNotBetween(Integer value1, Integer value2) {
-            addCriterion("record_id not between", value1, value2, "recordId");
+        public Criteria andPicIdNotBetween(Integer value1, Integer value2) {
+            addCriterion("pic_id not between", value1, value2, "picId");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdIsNull() {
-            addCriterion("order_id is null");
+        public Criteria andSellerIdIsNull() {
+            addCriterion("seller_id is null");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdIsNotNull() {
-            addCriterion("order_id is not null");
+        public Criteria andSellerIdIsNotNull() {
+            addCriterion("seller_id is not null");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdEqualTo(Integer value) {
-            addCriterion("order_id =", value, "orderId");
+        public Criteria andSellerIdEqualTo(Integer value) {
+            addCriterion("seller_id =", value, "sellerId");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdNotEqualTo(Integer value) {
-            addCriterion("order_id <>", value, "orderId");
+        public Criteria andSellerIdNotEqualTo(Integer value) {
+            addCriterion("seller_id <>", value, "sellerId");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdGreaterThan(Integer value) {
-            addCriterion("order_id >", value, "orderId");
+        public Criteria andSellerIdGreaterThan(Integer value) {
+            addCriterion("seller_id >", value, "sellerId");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdGreaterThanOrEqualTo(Integer value) {
-            addCriterion("order_id >=", value, "orderId");
+        public Criteria andSellerIdGreaterThanOrEqualTo(Integer value) {
+            addCriterion("seller_id >=", value, "sellerId");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdLessThan(Integer value) {
-            addCriterion("order_id <", value, "orderId");
+        public Criteria andSellerIdLessThan(Integer value) {
+            addCriterion("seller_id <", value, "sellerId");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdLessThanOrEqualTo(Integer value) {
-            addCriterion("order_id <=", value, "orderId");
+        public Criteria andSellerIdLessThanOrEqualTo(Integer value) {
+            addCriterion("seller_id <=", value, "sellerId");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdIn(List<Integer> values) {
-            addCriterion("order_id in", values, "orderId");
+        public Criteria andSellerIdIn(List<Integer> values) {
+            addCriterion("seller_id in", values, "sellerId");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdNotIn(List<Integer> values) {
-            addCriterion("order_id not in", values, "orderId");
+        public Criteria andSellerIdNotIn(List<Integer> values) {
+            addCriterion("seller_id not in", values, "sellerId");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdBetween(Integer value1, Integer value2) {
-            addCriterion("order_id between", value1, value2, "orderId");
+        public Criteria andSellerIdBetween(Integer value1, Integer value2) {
+            addCriterion("seller_id between", value1, value2, "sellerId");
             return (Criteria) this;
         }
 
-        public Criteria andOrderIdNotBetween(Integer value1, Integer value2) {
-            addCriterion("order_id not between", value1, value2, "orderId");
+        public Criteria andSellerIdNotBetween(Integer value1, Integer value2) {
+            addCriterion("seller_id not between", value1, value2, "sellerId");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusIsNull() {
-            addCriterion("pay_status is null");
+        public Criteria andPicPathIsNull() {
+            addCriterion("pic_Path is null");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusIsNotNull() {
-            addCriterion("pay_status is not null");
+        public Criteria andPicPathIsNotNull() {
+            addCriterion("pic_Path is not null");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusEqualTo(Short value) {
-            addCriterion("pay_status =", value, "payStatus");
+        public Criteria andPicPathEqualTo(String value) {
+            addCriterion("pic_Path =", value, "picPath");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusNotEqualTo(Short value) {
-            addCriterion("pay_status <>", value, "payStatus");
+        public Criteria andPicPathNotEqualTo(String value) {
+            addCriterion("pic_Path <>", value, "picPath");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusGreaterThan(Short value) {
-            addCriterion("pay_status >", value, "payStatus");
+        public Criteria andPicPathGreaterThan(String value) {
+            addCriterion("pic_Path >", value, "picPath");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusGreaterThanOrEqualTo(Short value) {
-            addCriterion("pay_status >=", value, "payStatus");
+        public Criteria andPicPathGreaterThanOrEqualTo(String value) {
+            addCriterion("pic_Path >=", value, "picPath");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusLessThan(Short value) {
-            addCriterion("pay_status <", value, "payStatus");
+        public Criteria andPicPathLessThan(String value) {
+            addCriterion("pic_Path <", value, "picPath");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusLessThanOrEqualTo(Short value) {
-            addCriterion("pay_status <=", value, "payStatus");
+        public Criteria andPicPathLessThanOrEqualTo(String value) {
+            addCriterion("pic_Path <=", value, "picPath");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusIn(List<Short> values) {
-            addCriterion("pay_status in", values, "payStatus");
+        public Criteria andPicPathLike(String value) {
+            addCriterion("pic_Path like", value, "picPath");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusNotIn(List<Short> values) {
-            addCriterion("pay_status not in", values, "payStatus");
+        public Criteria andPicPathNotLike(String value) {
+            addCriterion("pic_Path not like", value, "picPath");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusBetween(Short value1, Short value2) {
-            addCriterion("pay_status between", value1, value2, "payStatus");
+        public Criteria andPicPathIn(List<String> values) {
+            addCriterion("pic_Path in", values, "picPath");
             return (Criteria) this;
         }
 
-        public Criteria andPayStatusNotBetween(Short value1, Short value2) {
-            addCriterion("pay_status not between", value1, value2, "payStatus");
+        public Criteria andPicPathNotIn(List<String> values) {
+            addCriterion("pic_Path not in", values, "picPath");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicPathBetween(String value1, String value2) {
+            addCriterion("pic_Path between", value1, value2, "picPath");
+            return (Criteria) this;
+        }
+
+        public Criteria andPicPathNotBetween(String value1, String value2) {
+            addCriterion("pic_Path not between", value1, value2, "picPath");
             return (Criteria) this;
         }
     }
