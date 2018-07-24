@@ -1,6 +1,6 @@
 package com.yidongzhineng.dxc.pojo;
 
-public class Order {
+public class Indent {
     private Integer orderId;
 
     private Integer sellerId;
@@ -19,7 +19,7 @@ public class Order {
 
     private Integer orderStatus;
 
-    public Order(Integer orderId, Integer sellerId, Integer userId, String service, Float totalPrice, Integer number, Long orderTime, Long serviceTime, Integer orderStatus) {
+    public Indent(Integer orderId, Integer sellerId, Integer userId, String service, Float totalPrice, Integer number, Long orderTime, Long serviceTime, Integer orderStatus) {
         this.orderId = orderId;
         this.sellerId = sellerId;
         this.userId = userId;
@@ -31,7 +31,7 @@ public class Order {
         this.orderStatus = orderStatus;
     }
 
-    public Order() {
+    public Indent() {
         super();
     }
 

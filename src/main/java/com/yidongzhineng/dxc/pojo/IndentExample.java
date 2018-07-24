@@ -3,14 +3,14 @@ package com.yidongzhineng.dxc.pojo;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrderExample {
+public class IndentExample {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public OrderExample() {
+    public IndentExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 
